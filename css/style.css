@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
   background-color: #FFFFFF;
 }
@@ -7,18 +7,18 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 p,
 ul {
   margin: 0;
   padding: 0;
-}
+} */
 
-header {
+/* header {
   border-bottom: 1px solid #ECECEC;
   background-color: #FFFFFF;
   padding-top: 24px;
@@ -28,41 +28,41 @@ header {
 footer {
   background: #2F303A;
   padding: 60px 0;
-}
+} */
 
 /* -- Адреса у Футері -- */
 
-address {
+/* address {
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #FFFFFF;
   margin-top: 20px;
-}
+} */
 
-.section {
+/* .section {
   padding: 94px 0;
-}
+} */
 
-.container {
+/* .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} */
 
 /* -- Логотип Студії -- */
 
-:root {
+/* :root {
   --brand-color: #2196F3;
   --header-color: #000000;
   --footer-color: #FFFFFF;
   --headline-color: #212121;
   --text-color: #757575;
   --bg-color: #F5F4FA;
-}
+} */
 
-.logo {
+/* .logo {
   color: var(--brand-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -70,32 +70,32 @@ address {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
+} */
 
 /* -- Заміна кольору для лого у хеддері -- */
 
-.logo--header {
+/* .logo--header {
   color: var(--header-color)
-}
+} */
 
 /* -- Загальні доп. класи для списків та посилань -- */
 
-.list {
+/* .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
-}
+} */
 
 /*  -- Навігація по сторінках у хеддері -- */
 
-.header {
+/* .header {
   display: flex;
   align-items: center;
-}
+} */
 
-.menu {
+/* .menu {
   margin-left: 93px;
   margin-right: auto;
 }
@@ -140,15 +140,15 @@ address {
 .menu__link:hover,
 .menu__link:focus {
   color: var(--brand-color);
-}
+} */
 
 /* -- Колір визначення розташування -- */
 
-.main {
+/* .current {
   color: var(--brand-color);
 }
 
-.main::after {
+.current::after {
   content: '';
   display: block;
   position: absolute;
@@ -161,11 +161,11 @@ address {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   opacity: 1;
   transform: none;
-}
+} */
 
 /* -- Телефон та пошта у хедері -- */
 
-.contacts {
+/* .contacts {
   display: flex;
   gap: 50px;
   justify-self: flex-end;
@@ -190,14 +190,13 @@ address {
   color: var(--brand-color);
 }
 
-.envelope-icon,
-.smartphone-icon {
+.header__icon {
   fill: currentColor;
-}
+} */
 
 /* -- Секція heros -- */
 
-.heros {
+/* .heros {
   background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/heros-bg.jpg);
   background-repeat: no-repeat;
   background-size: 1600px;
@@ -215,11 +214,11 @@ address {
   text-align: center;
   width: 696px;
   margin: 0 auto;
-}
+} */
 
 /* -- Кнопка замовлення у сек. heros -- */
 
-.order-button {
+/* .order-button {
   background: var(--brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -234,11 +233,11 @@ address {
   padding: 10px 32px;
   display: flex;
   cursor: pointer;
-}
+} */
 
 /* -- Секція Особливості -- */
 
-.features__list {
+/* .features__list {
   display: flex;
   gap: 30px;
 }
@@ -275,11 +274,11 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
-}
+} */
 
 /* -- Секція about -- */
 
-.about {
+/* .about {
   padding-top: 0;
 }
 
@@ -319,11 +318,11 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:var(--footer-color);
-}
+} */
 
 /* -- Секція Команда -- */
 
-.team {
+/* .team {
   background: var(--bg-color);
 }
 
@@ -361,7 +360,7 @@ address {
 
 /* -- посада учасника команди -- */
 
-.team__position {
+/* .team__position {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -397,11 +396,11 @@ address {
 
 .team__icons {
   fill: currentColor;
-}
+} */
 
 /* -- Секція Клієнти -- */
 
-.clients__title {
+/* .clients__title {
   font-family: 'Roboto';
   font-size: 36px;
   line-height: 1.17;
@@ -436,11 +435,11 @@ address {
 
 .clients__icon {
   fill: currentColor;
-}
+} */
 
 /* -- Кнопки фільтрів на ст. Портфоліо -- */
 
-.filters__list {
+/* .filters__list {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -467,11 +466,11 @@ address {
   background: var(--brand-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
-}
+} */
 
 /* -- Зразки проектів на ст. портфоліо -- */
 
-.projects__list {
+/* .projects__list {
   display: flex;
   flex-wrap: wrap; 
   gap: 30px;
@@ -544,21 +543,21 @@ address {
   flex-direction: column;
   background: #FFFFFF;
   padding: 20px 24px;
-}
+} */
 
 /* -- Підвал -- */
 
-.footer {
+/* .footer {
   display: flex;
   align-items: baseline;
-}
+} */
 
 /* -- Заміна кольору для лого у "підвалі" -- */
-.logo--footer {
+/* .logo--footer {
   color: var(--footer-color)
-}
+} */
 
-.footer__address {
+/* .footer__address {
   width: 231px;
 }
 
@@ -673,11 +672,11 @@ address {
   align-items: center;
   justify-content: center;
   fill: #FFFFFF;
-}
+} */
 
 /* -- Модальне Вікно -- */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -878,4 +877,4 @@ address {
   padding: 10px 52px;
   cursor: pointer;
   margin: 30px auto 0;
-}
+} */
